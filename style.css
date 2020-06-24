@@ -1,0 +1,47 @@
+body{
+    background-image:url(bg.png) ;
+}
+.header{
+    border: solid;
+    text-align: center;
+    background-color: #2b0c3a86; 
+}
+.header a{
+    
+    font-size: 45px;
+    height:15px;
+    
+}
+.menu{
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 45px;
+    height:55px;
+    justify-content : space-between;
+    background-color: #50c5d486;
+}
+.declarative{
+    margin-top: 50px;
+    justify-content : space-between;
+}
+.item2{
+    display: table-cell;
+    width: 550px;
+    margin-top: 150px;
+    flex-wrap: initial;
+    justify-content : space-between;
+    border: solid;
+   
+}
+h2{
+    text-align : center;
+    color: #fa1919;
+}
+p{
+    margin-top: 5px;
+    font-size: 40px;
+    background-color: #fa1919; 
+    border: solid;
+    
+}
